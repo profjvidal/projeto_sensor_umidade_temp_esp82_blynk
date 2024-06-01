@@ -6,14 +6,14 @@
 #include <DHT.h> 
 
 //Auth token
-#define BLYNK_AUTH_TOKEN "mmRsl1i8SKbZec8zHUYWyrpH5yE8Tarq"
+#define BLYNK_AUTH_TOKEN "########"
 
 //Armazena o AuthToken
 char auth[] = BLYNK_AUTH_TOKEN;
 //Rede WiFi
-char ssid[] = "IoT";
+char ssid[] = "########";
 //Senha da rede WiFi
-char pass[] = "nodemcu8266"; 
+char pass[] = "########"; 
 
 #define DHTPIN D2          // Define o pino digital que o DHT22 está conectado
 #define DHTTYPE DHT22     // DHT 22
